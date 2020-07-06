@@ -1,0 +1,19 @@
+body{
+    font-family: Helvetica;
+}
+h1{
+    text-align: center;
+}
+.column{
+    float: left;
+    width: 33.33%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+textarea{
+    width: 300px;
+    row-span: 5;
+}

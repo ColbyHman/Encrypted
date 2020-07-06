@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo</title>
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.js'></script>
+    <script src='node_modules/sjcl/sjcl.js'></script>
+    <script src="encryptDemo.js">d</script>
+    <link rel="stylesheet" type="text/css" href="encryptDemo.css">
+</head>
+<body>
+<h1>Encryption Testing</h1>
+<div class="row">
+<div class="column" id="left" rows="4" cols="50">
+    <label for="textLeft">Unencrypted text</label><textarea id="textLeft" name="unencrypted"></textarea>
+</div>
+<div class="column" id="middle">
+    <button id="decrypt" type="button">&lt&ltDecrypt</button>
+    <button id = "encrypt" type="button">Encrypt&gt&gt</button>
+    <label for="password">Password</label><textarea id="password" name="password"></textarea>
+
+</div>
+<div class="column" id="right">
+    <label for="textRight">Encrypted text</label><textarea id="textRight" name="encrypted" ></textarea>
+</div>
+</div>
+</body>
+</html>
