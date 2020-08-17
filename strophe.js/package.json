@@ -1,0 +1,146 @@
+{
+  "_from": "strophe.js",
+  "_id": "strophe.js@1.3.5",
+  "_inBundle": false,
+  "_integrity": "sha512-258PeC2FieDMBtewJLXwmgtXmG2AI8eRJJnfOV1geUeQJui2nrRzu2feclG53PDbvUZrSP0eWcPAnraPuHjRAQ==",
+  "_location": "/strophe.js",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "strophe.js",
+    "name": "strophe.js",
+    "escapedName": "strophe.js",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/strophe.js/-/strophe.js-1.3.5.tgz",
+  "_shasum": "3a670d578edc3e27e200c4f63c208f92b34ad3be",
+  "_spec": "strophe.js",
+  "_where": "B:\\projects\\9780470540718_Professional XMPP_Code Download\\9780470540718_Professional XMPP_Code Download\\ch03",
+  "author": {
+    "name": "Jack Moffit",
+    "url": "metajack"
+  },
+  "browser": "dist/strophe.umd.js",
+  "browserslist": ">1%, maintained node versions",
+  "bugs": {
+    "url": "https://github.com/strophe/strophejs/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Nathan Zorn",
+      "url": "thepug"
+    },
+    {
+      "name": "Andreas Guth",
+      "url": "Gordin"
+    },
+    {
+      "name": "Anton Stroganov",
+      "url": "Aeon"
+    },
+    {
+      "name": "Florian Zeitz",
+      "url": "Florob"
+    },
+    {
+      "name": "Christopher Zorn",
+      "url": "twonds"
+    },
+    {
+      "name": "dodo"
+    },
+    {
+      "name": "Lee Boynton",
+      "url": "lboynton"
+    },
+    {
+      "name": "Theo Cushion",
+      "url": "theozaurus"
+    },
+    {
+      "name": "Brendon Crawford",
+      "url": "brendoncrawford"
+    },
+    {
+      "name": "JC Brand",
+      "url": "jcbrand"
+    }
+  ],
+  "dependencies": {
+    "abab": "^2.0.0",
+    "ws": "^7.0.0",
+    "xmldom": "^0.1.27"
+  },
+  "deprecated": false,
+  "description": "Strophe.js is an XMPP library for JavaScript",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "almond": "~0.3.0",
+    "es6-promise": "^4.1.0",
+    "eslint": "4.19.1",
+    "http-server": "^0.10.0",
+    "jquery": "3.2.1",
+    "minimist": "^1.2.0",
+    "npm": "^5.7.1",
+    "qunitjs": "~1.16.0",
+    "requirejs": "2.3.5",
+    "rollup": "^1.12.3",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^10.0.0",
+    "rollup-plugin-node-globals": "^1.4.0",
+    "rollup-plugin-node-resolve": "^5.0.0",
+    "rollup-plugin-uglify": "^6.0.2",
+    "run-headless-chromium": "^0.1.1",
+    "sinon": "1.17.7",
+    "sinon-qunit": "~2.0.0",
+    "yarpm": "^0.2.1"
+  },
+  "files": [
+    "src/",
+    "dist/",
+    "CHANGELOG.txt",
+    "LICENSE.txt",
+    "README.txt"
+  ],
+  "homepage": "http://strophe.im/strophejs",
+  "keywords": [
+    "xmpp",
+    "message",
+    "bosh",
+    "websocket",
+    "browser"
+  ],
+  "license": "MIT",
+  "main": "dist/strophe.common.js",
+  "module": "dist/strophe.esm.js",
+  "name": "strophe.js",
+  "optionalDependencies": {
+    "ws": "^7.0.0",
+    "xmldom": "^0.1.27"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/strophe/strophejs.git"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "clean": "make clean",
+    "doc": "make doc",
+    "lint": "make eslint",
+    "prepare": "yarpm run build"
+  },
+  "unpkg": "dist/strophe.umd.min.js",
+  "version": "1.3.5",
+  "volo": {
+    "url": "https://raw.githubusercontent.com/strophe/strophejs/release-{version}/strophe.js"
+  }
+}
